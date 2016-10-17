@@ -1,5 +1,5 @@
 // config/database.js
 
 module.exports = {
-    url : 'mongodb://localhost/sffood'
+    url : 'mongodb://localhost/sfFood'
 };

@@ -3,7 +3,7 @@ var dataModule = angular.module('dataModule', []);
 
 function mainController($scope, $http) {
 
-      $http.get('/api/inspections/businesses')
+    /*  $http.get('/api/inspections/businesses')
         .success(function(data) {
             $scope.businesses = data
             console.log(data);
@@ -44,5 +44,14 @@ function mainController($scope, $http) {
         })
         .error(function(data) {
             console.log('Error: ' + data);
-        });
+        });*/
+
+   /* $http.get('/api/inspections/categoryCount')
+        .success(function(data) {
+            $scope.categoryCount = data;
+            console.log(data);
+        })
+        .error(function(data) {
+            console.log('Error: ' + data);
+        });*/
 }
